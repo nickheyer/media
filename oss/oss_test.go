@@ -16,10 +16,10 @@ import (
 
 	"github.com/jinzhu/configor"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/media"
-	"github.com/qor/media/oss"
+	"github.com/nickheyer/media"
+	"github.com/nickheyer/media/oss"
+	"github.com/nickheyer/qor/test/utils"
 	"github.com/qor/oss/s3"
-	"github.com/qor/qor/test/utils"
 )
 
 var (
