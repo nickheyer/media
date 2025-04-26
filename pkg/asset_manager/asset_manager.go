@@ -8,8 +8,8 @@ import (
 	"regexp"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/admin"
-	"github.com/nickheyer/media/oss"
+	admin "github.com/nickheyer/admin/pkg"
+	"github.com/nickheyer/media/pkg/oss"
 	"github.com/nickheyer/qor/resource"
 )
 

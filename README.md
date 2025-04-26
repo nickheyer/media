@@ -6,7 +6,7 @@ Media is a [Golang](http://golang.org/) library that supports the upload of *fil
 - optional multiple sizes for each media resource.
 - Accessibility helpers.
 
-[![GoDoc](https://godoc.org/github.com/nickheyer/media?status.svg)](https://godoc.org/github.com/nickheyer/media)
+[![GoDoc](https://godoc.org/github.com/nickheyer/media/pkg?status.svg)](https://godoc.org/github.com/nickheyer/media/pkg)
 
 ###### File Types
 
@@ -25,7 +25,7 @@ Media depends on [GORM](https://github.com/jinzhu/gorm) models as it is using [G
 ```go
 import (
   "github.com/jinzhu/gorm"
-  "github.com/nickheyer/media"
+  "github.com/nickheyer/media/pkg"
 )
 
 DB, err = gorm.Open("sqlite3", "demo_db") // [gorm](https://github.com/jinzhu/gorm)
@@ -38,7 +38,7 @@ Then add [OSS(Object Storage Service)](https://github.com/qor/oss) to your model
 ```go
 import (
   "github.com/jinzhu/gorm"
-  "github.com/nickheyer/media/oss"
+  "github.com/nickheyer/media/pkg/oss"
 )
 
 type Product struct {
@@ -100,7 +100,7 @@ You can implement the `GetSizes` function to predefine image sizes. The size nam
 
 ```go
 import (
-  "github.com/nickheyer/media/oss"
+  "github.com/nickheyer/media/pkg/oss"
   "github.com/jinzhu/gorm"
 )
 
@@ -140,9 +140,9 @@ setup a media library
 ```
 import(
 "github.com/nickheyer/admin"
-"github.com/nickheyer/media/oss"
+"github.com/nickheyer/media/pkg/oss"
 "github.com/oss/s3"
-"github.com/nickheyer/media/media_library"
+"github.com/nickheyer/media/pkg/media_library"
 )
 
 db.AutoMigrate(&media_library.MediaLibrary{})
@@ -155,8 +155,8 @@ media.RegisterCallbacks(db)
 use media box in model
 ```
 import(
-"github.com/nickheyer/media/media_library"
-"github.com/nickheyer/media
+"github.com/nickheyer/media/pkg/media_library"
+"github.com/nickheyer/media/pkg
 }
 
 type Product struct {

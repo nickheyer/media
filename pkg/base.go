@@ -20,7 +20,7 @@ import (
 	"github.com/gosimple/slug"
 	"github.com/jinzhu/gorm"
 	"github.com/jinzhu/inflection"
-	"github.com/nickheyer/admin"
+	admin "github.com/nickheyer/admin/pkg"
 	"github.com/nickheyer/qor"
 	"github.com/nickheyer/qor/resource"
 	"github.com/nickheyer/qor/utils"
@@ -248,7 +248,7 @@ func (b Base) IsSVG() bool {
 }
 
 func init() {
-	admin.RegisterViewPath("github.com/nickheyer/media/views")
+	admin.RegisterViewPath("./views")
 }
 
 // ConfigureQorMetaBeforeInitialize configure this field for Qor Admin

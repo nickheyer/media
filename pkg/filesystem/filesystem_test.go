@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/media"
-	"github.com/nickheyer/media/filesystem"
+	media "github.com/nickheyer/media/pkg"
+	"github.com/nickheyer/media/pkg/filesystem"
 	"github.com/nickheyer/qor/test/utils"
 )
 

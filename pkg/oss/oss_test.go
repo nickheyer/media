@@ -16,8 +16,8 @@ import (
 
 	"github.com/jinzhu/configor"
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/media"
-	"github.com/nickheyer/media/oss"
+	media "github.com/nickheyer/media/pkg"
+	"github.com/nickheyer/media/pkg/oss"
 	"github.com/nickheyer/qor/test/utils"
 	"github.com/qor/oss/s3"
 )

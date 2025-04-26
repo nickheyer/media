@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/nickheyer/media"
+	media "github.com/nickheyer/media/pkg"
 	"github.com/nickheyer/qor/utils"
 	"github.com/qor/oss"
 	"github.com/qor/oss/filesystem"

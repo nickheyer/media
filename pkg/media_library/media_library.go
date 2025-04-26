@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/admin"
-	"github.com/nickheyer/media"
-	"github.com/nickheyer/media/oss"
+	admin "github.com/nickheyer/admin/pkg"
+	media "github.com/nickheyer/media/pkg"
+	"github.com/nickheyer/media/pkg/oss"
 	"github.com/nickheyer/qor"
 	"github.com/nickheyer/qor/resource"
 	"github.com/nickheyer/qor/utils"
