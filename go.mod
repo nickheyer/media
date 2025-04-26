@@ -40,9 +40,11 @@ require (
 	github.com/microcosm-cc/bluemonday v1.0.21 // indirect
 	github.com/nickheyer/admin v0.0.0-20250426043149-bcaba0b3fea1 // indirect
 	github.com/nickheyer/qor v0.0.0-20250426044631-07c33cf90bec // indirect
+	github.com/qor/admin v1.2.1-0.20241221082709-7177299dbbfd // indirect
 	github.com/qor/assetfs v0.0.0-20170713023933-ff57fdc13a14 // indirect
 	github.com/qor/middlewares v0.0.0-20170822143614-781378b69454 // indirect
 	github.com/qor/oss v0.0.0-20241126061828-4629f3a3524a // indirect
+	github.com/qor/qor v1.3.1-0.20241221083001-ec38ce5b2cac // indirect
 	github.com/qor/responder v0.0.0-20171031032654-b6def473574f // indirect
 	github.com/qor/roles v0.0.0-20171127035124-d6375609fe3e // indirect
 	github.com/qor/serializable_meta v0.0.0-20180510060738-5fd8542db417 // indirect
